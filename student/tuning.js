@@ -25,16 +25,16 @@ const TUNING = {
      Assignment: Part 2, Hole 1.                                           */
 
   // How fast you fall. Bigger = heavier.          try 900 (moon) to 3500 (rock)
-  GRAVITY: 1600,
+  GRAVITY: 1800,
 
   // The fastest you can fall.                      try 400 to 1500
   MAX_FALL_SPEED: 900,
 
   // Top running speed.                             try 120 to 400
-  MOVE_SPEED: 260,
+  MOVE_SPEED: 220,
 
   // How quickly you reach top speed on the ground. try 600 (sluggish) to 5000 (snappy)
-  GROUND_ACCEL: 3200,
+  GROUND_ACCEL: 2400,
 
   // How quickly you stop when you let go.          try 300 (ice) to 5000 (glue)
   GROUND_FRICTION: 2600,
@@ -46,7 +46,7 @@ const TUNING = {
   AIR_FRICTION: 500,
 
   // How hard you push off the ground when you jump. try 400 to 900
-  JUMP_VELOCITY: 700,
+  JUMP_VELOCITY: 620,
 
 
   /* ===== HOLE 2 of 7 — The feel you can't see ===========================
@@ -87,7 +87,7 @@ const TUNING = {
      Then ask yourself: did it make your level too easy?
      Assignment: Part 2, Hole 3.                                           */
 
-  MAX_AIR_JUMPS: 1,
+  MAX_AIR_JUMPS: 0,
 
 
   // ----- Other -------------------------------------------------------------
