@@ -31,7 +31,7 @@ const TUNING = {
   MAX_FALL_SPEED: 900,
 
   // Top running speed.                             try 120 to 400
-  MOVE_SPEED: 220,
+  MOVE_SPEED: 400,
 
   // How quickly you reach top speed on the ground. try 600 (sluggish) to 5000 (snappy)
   GROUND_ACCEL: 2400,
